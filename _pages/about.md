@@ -11,6 +11,15 @@ html, body {
   padding: 0;
 }
 
+#main {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 2em;
+    animation: intro 0.3s both;
+    animation-delay: 0.35s;
+    padding-left: 0;
+}
+
 .main{
   width: 100%;
 }
