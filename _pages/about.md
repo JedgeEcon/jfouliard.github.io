@@ -5,6 +5,7 @@ title: ""
 <style>
 /* ===== Body & global styles ===== */
 html, body {
+  font-family: "Times New Roman", Times, serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -38,15 +39,16 @@ html, body {
 
 .header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 0.8em 1.5em;
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
 }
 
 .header-name h1 {
-  font-size: 2.2em;
-  font-weight: 700;
+  font-size: 1em;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -100,7 +102,7 @@ html, body {
 }
 
 .profile-picture {
-  flex: 0 0 360px;
+  flex: 0 0 260px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -116,7 +118,7 @@ html, body {
 
 .profile-text {
   flex: 1;
-  font-size: 1.22em;
+  font-size: 1.05em;
   max-width: 700px;
 }
 
@@ -146,6 +148,15 @@ html, body {
   margin-bottom: 0.8em;
   border-bottom: 2px solid #e6e6e6;
   padding-bottom: 0.35em;
+}
+
+.sub-publications {
+  padding-left: 1.2em;
+}
+
+.publication a {
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 .coauthor {
@@ -278,9 +289,9 @@ details p {
 
   <!-- ===== Other Publications (Sociology) ===== -->
 <h2 class="section-title">Other Publications (Sociology)</h2>
-  <div class="sub-publications">
+  <ul class="sub-publications">
 
-    <div class="publication">
+    <li class="publication">
       <a href="files/exclusion.pdf">
         <strong>L’exclusion sociale est-elle réductible à la situation d’assistance ?</strong>
       </a>
@@ -292,9 +303,9 @@ details p {
           This article aims to quantify the relative significance of various determinants of the feeling of exclusion identified in the literature. Drawing on data from the 2018 “Statistics on Resources and Living Conditions” survey (“Statistiques sur les ressources et les conditions de vie” or “SRCV”) conducted by France’s National Institute of Statistics and Economic Studies (Insee), it demonstrates that social assistance, defined as households’ perception of social transfers, has no additional or intensifying effect on feelings of exclusion once controlling for factors such as labor market detachment, country of birth, material poverty, and geographical isolation. These findings contribute to the ongoing debate in the literature by refuting the hypothesis that feelings of exclusion are primarily attributable to the situation of being assisted, which binds individuals to society.
         </p>
       </details>
-    </div>
+    </li>
 
-    <div class="publication">
+    <li class="publication">
       <a href="https://librairie.studyrama.com/produit/4681/9782749552255/l-exclusion-sociale"><strong>L’exclusion sociale. Reconstruire les communs</strong></a>, 2022, Bréal.
 
       <details>
@@ -303,9 +314,9 @@ details p {
           Anti-racist movements, feminist movements, or the Yellow Vests movement: contemporary political struggles express the widespread feeling of social exclusion — a sense of being deprived of access to the legitimate spheres of social life. If the feeling of social exclusion reflects a new way of framing the social question — that is, the question of social cohesion — the notion itself remains poorly defined, even though it has become an explicit objective of public policy. Faced with the nationalist and neoliberal projects that currently shape political horizons, this book seeks to redefine and account for the emergence of social exclusion. In doing so, it lays the first foundations for a political renewal.
         </p>
       </details>
-    </div>
+    </li>
 
-    <div class="publication">
+    <li class="publication">
       <a href="https://librairie.studyrama.com/produit/4005/9782749553573/l-exclusion-sociale"><strong>L’exclusion sociale</strong></a>, 2017, Bréal.
 
       <details>
@@ -314,7 +325,7 @@ details p {
           The notion of social exclusion now occupies a fundamental place worldwide. It is both the focus of public policies and activist struggles, and has also become the subject of extensive academic research. Social exclusion is often seen as representative of the ills affecting our societies as a whole — from unemployment and precariousness to the sense of marginalization experienced by certain individuals. Yet the use of the concept and its definition remain extremely vague, raising doubts about its ability to make sense of the world we live in and, consequently, about the possibility of providing a social explanation for these phenomena. Drawing on the analyses of Castel, Simmel, and Paugam, as well as on fields as diverse as the microeconomics of discrimination and the history of exclusion practices, this book aims to examine the concept of social exclusion while also serving as an introduction to the social sciences, thanks to pedagogical boxed sections. This book is intended for students in the social sciences and economics.
         </p>
       </details>
-    </div>
+    </li>
 
-  </div>
+  </ul>
 </div>
