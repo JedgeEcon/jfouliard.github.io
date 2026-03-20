@@ -11,7 +11,7 @@ html, body {
   padding: 0;
 }
 
-#main {
+.main {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 2em;
