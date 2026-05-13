@@ -96,12 +96,13 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 3.5em;
+  gap: 3em;
   margin-bottom: 3em;
 }
 
 .profile-picture {
-  flex: 0 0 340px;
+  flex: 1 1 340px;
+  max-width: 420px;
   position: relative;
 }
 
@@ -114,7 +115,7 @@ a:hover {
 }
 
 .profile-text {
-  flex: 1;
+  flex: 1 1 340px;
   min-width: 280px;
   font-size: 1em;
 }
@@ -322,12 +323,12 @@ details p {
     </div>
 
     <div class="profile-text">
-      <p>Welcome ! I'm a High Civil Servant specialized in Economics and Statistics, an
+      <p>Welcome ! I'm a High Civil Servant specialized in Economics and Statistics, a 
       <a href="https://www.insee.fr/fr/information/8599668">Engineer in Statistics, Economics and Data Science</a> 
       and a PhD student in Economics at the 
       <a href="https://www.parisschoolofeconomics.eu/en/persons/jeremy-fouliard/">Paris School of Economics</a>.</p>
 
-      <p>My research focuses on macroeconomic forecasting, particularly on sequential prediction methods with applications to financial stability. As a High civil servant at the French National Institute of Statistics and Economic Studies (<a href="https://www.insee.fr/fr/accueil">INSEE</a>), I currently work in the National Accounts Department as a research methodologist. My work covers a range of topics, including the measurement of public service output, profit shifting, and crypto-asset statistics within the scope of the new European system of Accounts. In my previous experiences, I also developed a strong interest in quantitative sociology.</p>
+      <p>My research focuses on macroeconomic forecasting, particularly on sequential prediction methods with applications to financial stability. As a senior civil servant at the French National Institute of Statistics and Economic Studies (<a href="https://www.insee.fr/fr/accueil">INSEE</a>), I currently work in the National Accounts Department as a research methodologist. My work covers a range of topics, including the measurement of public service output in volume terms, profit shifting, and crypto-asset statistics. In my previous experiences, I also developed a strong interest in quantitative sociology.</p>
 
       <div class="profile-info">
         <a href="files/jeremy_fouliard_cv.pdf" target="_blank">Curriculum Vitae</a> &nbsp;·&nbsp;
