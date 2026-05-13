@@ -95,7 +95,7 @@ a:hover {
 .profile-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   gap: 3.5em;
   margin-bottom: 3em;
 }
