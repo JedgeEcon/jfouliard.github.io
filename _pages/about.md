@@ -118,6 +118,7 @@ a:hover {
   flex: 1;
   min-width: 280px;
   font-size: 1em;
+  margin-right: -4em;
 }
 
 .profile-text p {
@@ -277,6 +278,7 @@ details p {
 
   .profile-text {
     text-align: left;
+    margin-right: 0;
   }
 
   .header-github-mobile {
