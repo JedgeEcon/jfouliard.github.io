@@ -96,13 +96,13 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 3em;
+  gap: 3.5em;
   margin-bottom: 3em;
 }
 
 .profile-picture {
-  flex: 1 1 340px;
-  max-width: 420px;
+  flex: 0 0 280px;
+  margin-left: -6em;
   position: relative;
 }
 
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .profile-text {
-  flex: 1 1 340px;
+  flex: 1;
   min-width: 280px;
   font-size: 1em;
 }
@@ -270,7 +270,8 @@ details p {
 
   .profile-picture {
     flex: 0 0 auto;
-    width: 140px;
+    width: 200px;
+    margin-left: 0;
     margin: 0 auto;
   }
 
