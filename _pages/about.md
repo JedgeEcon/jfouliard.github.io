@@ -5,6 +5,24 @@ title: ""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500&display=swap');
 
+/* ===== Force beige background everywhere ===== */
+html, body,
+#main, #page, .page, .page__content,
+.page__inner-wrap, .initial-content,
+.layout--single, div[id="main"],
+.page__content, article.page,
+div.page__inner-wrap, div.page__content {
+  background: #fafaf8 !important;
+  background-color: #fafaf8 !important;
+}
+
+/* Kill the white box Academic Pages adds */
+.page__content {
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 /* ===== Reset & base ===== */
 html, body {
   margin: 0;
@@ -119,6 +137,7 @@ a:hover {
   min-width: 280px;
   font-size: 1em;
   margin-right: -4em;
+  text-align: justify;
 }
 
 .profile-text p {
