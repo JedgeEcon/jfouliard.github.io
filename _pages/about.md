@@ -70,7 +70,7 @@ a:hover {
 .header-name h1 {
   font-family: 'Outfit', sans-serif;
   font-size: 0.95em;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.03em;
   margin: 0;
   color: #1a1a1a;
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .profile-picture {
-  flex: 0 0 200px;
+  flex: 0 0 240px;
   position: relative;
 }
 
@@ -340,32 +340,88 @@ details p {
 
   <!-- ===== Working Papers ===== -->
   <h2 class="section-title">Working Papers</h2>
-  <div class="sub-publications">
-    <a href="files/queenpaper.pdf">
-      <strong>Answering the Queen: Machine Learning and Financial Crises</strong>
-    </a>
-    <span class="coauthor"> — with Michael Howell (CbC), Hélène Rey (LBS), and Vania Stavrakeva (LBS)</span>  
-    <br>
-    <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-      Coverage: <a href="https://www.nber.org/papers/w28302">NBER</a> · <a href="https://cepr.org/publications/dp15618">CEPR</a> · <a href="https://www.bis.org/publ/work926.pdf">BIS</a>
-    </small>
+  <ul class="sub-publications">
 
-    <details><summary>Abstract</summary>
-      <p>
-        Financial crises cause economic, social and political havoc. Macroprudential policies are gaining traction but are still severely under-researched compared to monetary and fiscal policy. We use the general framework of sequential predictions, also called online machine learning, to forecast crises out-of-sample. Our methodology is based on model aggregation and is "meta-statistical", since we can incorporate any predictive model of crises in our analysis and test its ability to add information, without making any assumption on the data generating process. We predict systemic financial crises twelve quarters ahead out-of-sample with high signal-to-noise ratio. Our approach guarantees that picking certain time dependent sets of weights will be asymptotically similar for out-of-sample forecasts to the best ex post combination of models; it also guarantees that we outperform any individual forecasting model asymptotically. We analyse which models provide the most information for our predictions at each point in time and for each country, allowing us to gain some insights into economic mechanisms underlying the building of risk in economies.
-      </p>
-    </details>
-  </div>
+    <li class="publication">
+      <a href="files/queenpaper.pdf">
+        <strong>Answering the Queen: Machine Learning and Financial Crises</strong>
+      </a>
+      <span class="coauthor"> — with Michael Howell (CbC), Hélène Rey (LBS), and Vania Stavrakeva (LBS)</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        NBER Working Paper n° 10.3386/w28302, 2020
+      </small><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Coverage: <a href="https://www.nber.org/papers/w28302">NBER</a> · <a href="https://cepr.org/publications/dp15618">CEPR</a> · <a href="https://www.bis.org/publ/work926.pdf">BIS</a>
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          Financial crises cause economic, social and political havoc. Macroprudential policies are gaining traction but are still severely under-researched compared to monetary and fiscal policy. We use the general framework of sequential predictions, also called online machine learning, to forecast crises out-of-sample. Our methodology is based on model aggregation and is "meta-statistical", since we can incorporate any predictive model of crises in our analysis and test its ability to add information, without making any assumption on the data generating process. We predict systemic financial crises twelve quarters ahead out-of-sample with high signal-to-noise ratio. Our approach guarantees that picking certain time dependent sets of weights will be asymptotically similar for out-of-sample forecasts to the best ex post combination of models; it also guarantees that we outperform any individual forecasting model asymptotically. We analyse which models provide the most information for our predictions at each point in time and for each country, allowing us to gain some insights into economic mechanisms underlying the building of risk in economies.
+        </p>
+      </details>
+    </li>
+
+    <li class="publication">
+      <a href="#">
+        <strong>Is this Time Different? Financial Follies across Centuries</strong>
+      </a>
+      <span class="coauthor"> — with Hélène Rey (LBS) and Vania Stavrakeva (LBS)</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Working paper
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          Carmen Reinhart and Ken Rogoff write that "no matter how different the latest financial frenzy or crisis always appears, there are usually remarkable similarities with past experience from other countries and from history". Can we really use the same models to predict the 20th century Great Depression and the 21st century Great Recession? We find that we can predict out-of-sample the 1929 Great Depression and all the 20th and 21st century systemic financial crises in a panel of countries. We also generally do not over predict crises during the Bretton Woods period.
+        </p>
+      </details>
+    </li>
+
+    <li class="publication">
+      <a href="#">
+        <strong>Predictable Returns. Evidence from French Stock Market History (1845–2024)</strong>
+      </a>
+      <span class="coauthor"> — J. Fouliard</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Working paper
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          Whether stock returns are predictable remains one of the most contested questions in financial economics. Exploiting a novel hand-collected dataset spanning nearly two centuries of French stock market history (1845–2024), this paper provides a comprehensive empirical examination of return predictability through three interconnected hypotheses. First, the signal-to-noise ratio of any predictive model is inherently low, rendering robust out-of-sample forecasting economically marginal in aggregate. Second, pockets of predictability nonetheless exist but are concentrated in specific market segments and distinct historical episodes. Third, such pockets are increasingly transient, eroding as financial markets undergo structural transformation — notably the rise of algorithmic trading and digitalization. Together, these findings shed new light on the longstanding tension between market efficiency and the episodic predictability documented in prior literature, informing the ongoing debate on the boundaries of return forecastability.
+        </p>
+      </details>
+    </li>
+
+    <li class="publication">
+      <a href="#">
+        <strong>Volume Measures for Non-Market Education Output</strong>
+      </a>
+      <span class="coauthor"> — with M. Le Floch (INSEE) and P. Mendras (INSEE)</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Working paper
+      </small><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Coverage: <a href="https://journees-methodologie-statistique.insee.net/wp-content/uploads/2025/S09_3_PRES_fouliard_JMS2025.pdf">JMS</a> · <a href="https://unece.org/statistics/documents/2026/04/working-documents/volume-measures-non-market-education-output-france-0">UNECE</a>
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          Measuring the volume of public services output is a fundamental challenge for national accounts, due to the absence of market prices. In France, the volume of non-market education is measured using an output approach based on student enrollment. As this indicator mainly reflects demographic trends, the recent decline in the number of students mechanically reduces the estimated volume of education, even if quality teaching could have improved, for example through smaller class sizes. This study compares alternative volume measurements, and examines different quality adjustments to capture other features of the service provided. It introduces a theoretical framework that incorporates quality adjustments into output volume measures based on the contribution of quality to human capital, drawing on estimates consistent with the existing literature. Between 2013 and 2022, the adjustment based on PISA scores lowers annual growth rates (−0.056 percentage points on average) while the class-size adjustment slightly raises annual growth (+0.015 percentage points on average). Overall, quality adjustments have a modest effect on the estimated volume of education output, but moderate effects could accumulate over time and result in visible change in trend.
+        </p>
+      </details>
+    </li>
+
+  </ul>
 
   <!-- ===== Other Publications (Sociology) ===== -->
   <h2 class="section-title">Other Publications — Sociology</h2>
   <ul class="sub-publications">
 
     <li class="publication">
-      <a href="files/exclusion.pdf">
+      <a href="https://shs.cairn.info/revue-francaise-de-sociologie-2023-3-page-357?lang=fr&contenu=resume">
         <strong>L'exclusion sociale est-elle réductible à la situation d'assistance ?</strong>
       </a>
-      <span class="coauthor"> — with Éléonore Richard (DREES)</span>
+      <span class="coauthor"> — with Éléonore Richard (DREES)</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        <em>Revue française de sociologie</em>, 2023/3, vol. 64
+      </small>
 
       <details>
         <summary>Abstract</summary>
