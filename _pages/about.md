@@ -341,25 +341,43 @@ details p {
   <!-- ===== Profile ===== -->
   <div class="profile-container">
     <div class="profile-picture">
-      <img src="images/jfouliard.jpeg" alt="Jeremy Fouliard">
+      <img src="images/jfouliard.jpeg" alt="Jérémy Fouliard">
     </div>
 
     <div class="profile-text">
-      <p>Welcome ! I'm a High Civil Servant specialized in Economics and Statistics, a 
-      <a href="https://www.insee.fr/fr/information/8599668">Engineer in Statistics, Economics and Data Science</a> 
-      and a PhD student in Economics at the 
-      <a href="https://www.parisschoolofeconomics.eu/en/persons/jeremy-fouliard/">Paris School of Economics</a>.</p>
+      <p>Welcome! I am a PhD candidate in Economics at the
+      <a href="https://www.parisschoolofeconomics.eu/en/persons/jeremy-fouliard/">Paris School of Economics</a>,
+      advised by Pierre-Cyrille Hautcoeur and Eric Monnet, and a senior French civil servant, member of the State corps of
+      <a href="https://www.insee.fr/fr/information/8599668"><em>Ingénieurs de la statistique, de l'économie et de la donnée</em></a>.</p>
 
-      <p>My research focuses on macroeconomic forecasting, particularly on sequential prediction methods with applications to financial stability. As a senior civil servant at the French National Institute of Statistics and Economic Studies (<a href="https://www.insee.fr/fr/accueil">INSEE</a>), I currently work in the National Accounts Department as a research methodologist. My work covers a range of topics, including the measurement of public service output in volume terms, profit shifting, and crypto-asset statistics. In my previous experiences, I also developed a strong interest in quantitative sociology.</p>
+      <p>My research is in macroeconomic and financial forecasting and in economic measurement. Both ask what the data available today can reliably tell us about an economy that we observe imperfectly and with delay. I currently work as a research methodologist in the National Accounts Department of the French National Institute of Statistics and Economic Studies (<a href="https://www.insee.fr/fr/accueil">INSEE</a>), on the measurement of public sector output, profit shifting by multinational firms and crypto-assets. Before my PhD, I worked at London Business School on Hélène Rey's ERC project and at the Bank for International Settlements.</p>
 
       <div class="profile-info">
         <a href="files/jeremy_fouliard_cv.pdf" target="_blank">Curriculum Vitae</a> &nbsp;·&nbsp;
-        <a href="mailto:jeremy.fouliard@insee.fr">jeremy.fouliard@insee.fr</a> &nbsp;·&nbsp;
         <a href="mailto:jeremy.fouliard@psemail.eu">jeremy.fouliard@psemail.eu</a> &nbsp;·&nbsp;
+        <a href="mailto:jeremy.fouliard@insee.fr">jeremy.fouliard@insee.fr</a> &nbsp;·&nbsp;
         <a href="https://github.com/JedgeEcon" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
       </div>
     </div>
   </div>
+
+  <!-- ===== Job Market Paper ===== -->
+  <h2 class="section-title">Job Market Paper</h2>
+  <ul class="sub-publications">
+
+    <li class="publication">
+      <!-- Upload the PDF to files/ and keep this name, or change the link -->
+      <a href="files/fouliard_jmp.pdf">
+        <strong>Slow to Catch Up: Return Predictability on the Paris Bourse, 1845–2025</strong>
+      </a><br>
+      <details open><summary>Abstract</summary>
+        <p>
+          I study the real-time predictability of stock returns over 180 years with a new security-level dataset for the Paris Bourse (DFIH, 1845–1976, matched with EUROFIDAI, 1977–2025). Forecasts combine models as they become available through Bernstein Online Aggregation, a rule with a bounded regret that assumes nothing about the return-generating process. The market index is barely predictable: macro-financial predictors explain 0.5% of its half-monthly variance, mostly in crises, and the larger predictability of lagged index returns is a stale-price artefact. Individual stocks are more predictable, by about 0.6%, mostly because they react to market-wide news with a delay that is strongest in small stocks, not explained by stale prices, and unchanged over 155 years. Momentum earns 7% a year net of costs in almost every decade since 1900, while the historical volatility and beta premia vanish after 1977. Markets became better at pricing risk, not faster at absorbing information.
+        </p>
+      </details>
+    </li>
+
+  </ul>
 
   <!-- ===== Working Papers ===== -->
   <h2 class="section-title">Working Papers</h2>
@@ -369,57 +387,28 @@ details p {
       <a href="files/queenpaper.pdf">
         <strong>Answering the Queen: Machine Learning and Financial Crises</strong>
       </a>
-      <span class="coauthor"> — with Michael Howell (CbC), Hélène Rey (LBS), and Vania Stavrakeva (LBS)</span><br>
+      <span class="coauthor"> — with Michael Howell (CrossBorder Capital), Hélène Rey (BIS) and Vania Stavrakeva (LBS)</span><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        NBER Working Paper n° 10.3386/w28302, 2020
+        New version, 2026
       </small><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Coverage: <a href="https://www.nber.org/papers/w28302">NBER</a> · <a href="https://cepr.org/publications/dp15618">CEPR</a> · <a href="https://www.bis.org/publ/work926.pdf">BIS</a>
+        Earlier versions: <a href="https://www.nber.org/papers/w28302">NBER WP 28302</a> · <a href="https://cepr.org/publications/dp15618">CEPR</a> · <a href="https://www.bis.org/publ/work926.pdf">BIS</a>
       </small>
       <details><summary>Abstract</summary>
         <p>
-          Financial crises cause economic, social and political havoc. Macroprudential policies are gaining traction but are still severely under-researched compared to monetary and fiscal policy. We use the general framework of sequential predictions, also called online machine learning, to forecast crises out-of-sample. Our methodology is based on model aggregation and is "meta-statistical", since we can incorporate any predictive model of crises in our analysis and test its ability to add information, without making any assumption on the data generating process. We predict systemic financial crises twelve quarters ahead out-of-sample with high signal-to-noise ratio. Our approach guarantees that picking certain time dependent sets of weights will be asymptotically similar for out-of-sample forecasts to the best ex post combination of models; it also guarantees that we outperform any individual forecasting model asymptotically. We analyse which models provide the most information for our predictions at each point in time and for each country, allowing us to gain some insights into economic mechanisms underlying the building of risk in economies.
+          Early-warning systems for financial crises face a problem that the literature leaves aside: whether a quarter belonged to a pre-crisis period is known only years later, when it is too late to act. We address this delayed feedback by combining online learning with sequential change-point detection. We build one predictive model per channel of vulnerability (credit, real estate, external imbalances and the global financial cycle), treat each model as a sensor, and shift weight in real time towards the channel whose signal is changing. The procedure carries a formal performance guarantee that requires no assumption on the data-generating process. Applied to France, Germany, Sweden and the United Kingdom, with every parameter fixed on pre-2001 data, it raises an alarm at least nine quarters before the 2007–2008 crises in all four countries, with an average out-of-sample AUROC of 0.90. The channel that carries the alarm differs across countries, which is why an aggregation based on detection rather than on past performance is needed.
         </p>
       </details>
     </li>
 
     <li class="publication">
+      <!-- Replace href="#" with files/<pdf name> once the PDF is online -->
       <a href="#">
-        <strong>Is this Time Different? Financial Follies across Centuries</strong>
-      </a>
-      <span class="coauthor"> — with Hélène Rey (LBS) and Vania Stavrakeva (LBS)</span><br>
-      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Working paper
-      </small>
-      <details><summary>Abstract</summary>
-        <p>
-          Carmen Reinhart and Ken Rogoff write that "no matter how different the latest financial frenzy or crisis always appears, there are usually remarkable similarities with past experience from other countries and from history". Can we really use the same models to predict the 20th century Great Depression and the 21st century Great Recession? We find that we can predict out-of-sample the 1929 Great Depression and all the 20th and 21st century systemic financial crises in a panel of countries. We also generally do not over predict crises during the Bretton Woods period.
-        </p>
-      </details>
-    </li>
-
-    <li class="publication">
-      <a href="#">
-        <strong>Predictable Returns. Evidence from French Stock Market History (1845–2024)</strong>
-      </a>
-      <span class="coauthor"> — J. Fouliard</span><br>
-      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Working paper
-      </small>
-      <details><summary>Abstract</summary>
-        <p>
-          Whether stock returns are predictable remains one of the most contested questions in financial economics. Exploiting a novel hand-collected dataset spanning nearly two centuries of French stock market history (1845–2024), this paper provides a comprehensive empirical examination of return predictability through three interconnected hypotheses. First, the signal-to-noise ratio of any predictive model is inherently low, rendering robust out-of-sample forecasting economically marginal in aggregate. Second, pockets of predictability nonetheless exist but are concentrated in specific market segments and distinct historical episodes. Third, such pockets are increasingly transient, eroding as financial markets undergo structural transformation — notably the rise of algorithmic trading and digitalization. Together, these findings shed new light on the longstanding tension between market efficiency and the episodic predictability documented in prior literature, informing the ongoing debate on the boundaries of return forecastability.
-        </p>
-      </details>
-    </li>
-
-    <li class="publication">
-      <a href="#">
-        <strong>Volume Measures for Non-Market Education Output</strong>
+        <strong>Volume Output Measurement of Public Services: The Case of Education</strong>
       </a>
       <span class="coauthor"> — with M. Le Floch (INSEE) and P. Mendras (INSEE)</span><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Document de travail INSEE, 2026 (forthcoming)
+        Revise and resubmit, <em>Review of Income and Wealth</em>
       </small><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
         Coverage: <a href="https://journees-methodologie-statistique.insee.net/wp-content/uploads/2025/S09_3_PRES_fouliard_JMS2025.pdf">JMS</a> · <a href="https://unece.org/statistics/documents/2026/04/working-documents/volume-measures-non-market-education-output-france-0">UNECE</a>
@@ -431,52 +420,81 @@ details p {
       </details>
     </li>
 
+    <li class="publication">
+      <a href="#">
+        <strong>Quality-Adjusted Output and Productivity of the Non-Market Health Sector in France</strong>
+      </a><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Presented at the OECD Working Party on National Accounts, 2026
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          Despite an extensive literature on health care productivity, measuring quality-adjusted output in non-market settings remains an open challenge. This paper derives a welfare-based, quality-adjusted output index from a social planner's cost-minimisation problem, and identifies the distinct sources of productivity growth. Quality adjustment rests on a disease-based output specification in which each treatment contributes to aggregate health through two channels: a survival component, measured by severity-adjusted mortality rates, and a health-related quality-of-life component, measured by QALY gains per episode. Rather than importing QALY values from external tariffs, we estimate them directly from individual-level administrative data from the French Système National des Données de Santé (SNDS), which covers virtually the entire French population over 2012–2022. This exhaustive coverage enables a counterfactual analysis that isolates hospital-produced health gains from secular trends in population health. The framework is directly portable to any health system with diagnosis-related group tariffs and linked administrative records.
+        </p>
+      </details>
+    </li>
+
+    <li class="publication">
+      <a href="#">
+        <strong>Profit Shifting and the Measurement of Value Added: Evidence from a Distribution of French National Accounts by Type of Firm</strong>
+      </a>
+      <span class="coauthor"> — with U. Di Nallo (INSEE)</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Presented at the INSEE National Accounts Seminar and the OECD EG-MG Conference, 2026
+      </small>
+      <details><summary>Abstract</summary>
+        <p>
+          National accounts record value added in the economy where the producing unit is resident, but multinational groups can separate the location of their profits from the location of their production. We develop a method that distributes the production account across any partition of firms, following each legal unit from its tax return to published value added, and apply it to the breakdown recommended by the 2025 SNA: foreign-controlled corporations, domestic multinational groups and other domestic corporations. Combining country-by-country reports with tax returns for 2019–2023, we estimate profit shifting at the group level and pass this estimate through the compilation of French national accounts, to assess whether a correction for profit shifting can be produced within official statistics.
+        </p>
+      </details>
+    </li>
+
+    <li class="publication">
+      <a href="#">
+        <strong>Is This Time Different? Financial Follies across Centuries</strong>
+      </a>
+      <span class="coauthor"> — with Hélène Rey (BIS) and Vania Stavrakeva (LBS)</span><br>
+      <details><summary>Abstract</summary>
+        <p>
+          Carmen Reinhart and Ken Rogoff write that "no matter how different the latest financial frenzy or crisis always appears, there are usually remarkable similarities with past experience from other countries and from history". Can we really use the same models to predict the 20th century Great Depression and the 21st century Great Recession? We find that we can predict out-of-sample the 1929 Great Depression and all the 20th and 21st century systemic financial crises in a panel of countries. We also generally do not over-predict crises during the Bretton Woods period.
+        </p>
+      </details>
+    </li>
+
   </ul>
 
-  <!-- ===== Other Publications (Sociology) ===== -->
-  <h2 class="section-title">Other Publications — Sociology</h2>
+  <!-- ===== Work in Progress ===== -->
+  <h2 class="section-title">Work in Progress</h2>
   <ul class="sub-publications">
 
     <li class="publication">
-      <a href="https://shs.cairn.info/revue-francaise-de-sociologie-2023-3-page-357?lang=fr&contenu=resume">
-        <strong>L'exclusion sociale est-elle réductible à la situation d'assistance ?</strong>
+      <a href="#">
+        <strong>AI and the Transatlantic Productivity Gap: Who Captures the Gains from US Innovation?</strong>
       </a>
-      <span class="coauthor"> — with Éléonore Richard (DREES)</span><br>
-      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        <em>Revue française de sociologie</em>, 2023/3, vol. 64
-      </small>
-
-      <details>
-        <summary>Abstract</summary>
+      <details><summary>Abstract</summary>
         <p>
-          This article aims to quantify the relative significance of various determinants of the feeling of exclusion identified in the literature. Drawing on data from the 2018 "Statistics on Resources and Living Conditions" survey conducted by INSEE, it demonstrates that social assistance has no additional or intensifying effect on feelings of exclusion once controlling for factors such as labor market detachment, country of birth, material poverty, and geographical isolation.
-        </p>
-      </details>
-    </li>
-
-    <li class="publication">
-      <a href="https://librairie.studyrama.com/produit/4681/9782749552255/l-exclusion-sociale"><strong>L'exclusion sociale. Reconstruire les communs</strong></a>
-      <span class="coauthor">, 2022, Bréal.</span>
-
-      <details>
-        <summary>Abstract</summary>
-        <p>
-          Anti-racist movements, feminist movements, or the Yellow Vests movement: contemporary political struggles express the widespread feeling of social exclusion. This book seeks to redefine and account for the emergence of social exclusion, laying the first foundations for a political renewal against nationalist and neoliberal projects.
-        </p>
-      </details>
-    </li>
-
-    <li class="publication">
-      <a href="https://librairie.studyrama.com/produit/4005/9782749553573/l-exclusion-sociale"><strong>L'exclusion sociale</strong></a>
-      <span class="coauthor">, 2017, Bréal.</span>
-
-      <details>
-        <summary>Abstract</summary>
-        <p>
-          The notion of social exclusion now occupies a fundamental place worldwide, as both a focus of public policies and activist struggles. Drawing on Castel, Simmel, and Paugam, as well as fields ranging from the microeconomics of discrimination to the history of exclusion practices, this book examines the concept while serving as an introduction to the social sciences.
+          Frontier AI is produced mainly in the United States and China, while Europe, which produces little of it, will be a large user. Focusing on the transatlantic link, I study what this asymmetry implies for the productivity gap between Europe and the United States. I build a two-country model in the spirit of Baqaee and Farhi, in which production is a network of an AI sector, AI-using traded sectors and a sheltered sector, calibrated on international input-output tables. Innovation is concentrated in the United States and financed by the rents of AI producers, European adoption is endogenous and disciplined by occupational exposure to AI, compute is an accumulated capital stock, and the exchange rate is determined in equilibrium. The model separates the productivity gains that Europe obtains from AI from the value added it captures, the difference being the rent paid to US producers and the change in the terms of trade. It also shows how hedonic deflation and the capitalisation of AI spending shape measured European productivity, and when the constant-price and current-PPP readings of the transatlantic gap can each be right.
         </p>
       </details>
     </li>
 
   </ul>
+
+  <!-- ===== Teaching ===== -->
+  <h2 class="section-title">Teaching</h2>
+  <ul class="sub-publications">
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Programming for Economists</strong> <span class="coauthor">— Paris School of Economics, graduate course (Python, Git workflows), 2026</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Economic Measurement</strong> <span class="coauthor">— Sciences Po, graduate course, co-taught with E. Richard (DREES), 2026</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Teaching Assistant, Microeconomics and Statistics</strong> <span class="coauthor">— Sciences Po, second-year undergraduate students, 2022–2024</span></li>
+  </ul>
+
+  <!-- ===== References ===== -->
+  <h2 class="section-title">References</h2>
+  <ul class="sub-publications">
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Hélène Rey</strong> <span class="coauthor">— Economic Adviser and Head of the Monetary and Economic Department, Bank for International Settlements</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Eric Monnet</strong> <span class="coauthor">— Professor of Economics, Paris School of Economics</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Pierre-Cyrille Hautcoeur</strong> <span class="coauthor">— Professor of Economics, Paris School of Economics</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Sébastien Roux</strong> <span class="coauthor">— Programme Director, Augmented National Accounts, INSEE</span></li>
+  </ul>
+
 </div>
