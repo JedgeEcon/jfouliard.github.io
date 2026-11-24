@@ -396,7 +396,7 @@ details p {
       </small>
       <details><summary>Abstract</summary>
         <p>
-          Early-warning systems for financial crises face a problem that the literature leaves aside: whether a quarter belonged to a pre-crisis period is known only years later, when it is too late to act. We address this delayed feedback by combining online learning with sequential change-point detection. We build one predictive model per channel of vulnerability (credit, real estate, external imbalances and the global financial cycle), treat each model as a sensor, and shift weight in real time towards the channel whose signal is changing. The procedure carries a formal performance guarantee that requires no assumption on the data-generating process. Applied to France, Germany, Sweden and the United Kingdom, with every parameter fixed on pre-2001 data, it raises an alarm at least nine quarters before the 2007–2008 crises in all four countries, with an average out-of-sample AUROC of 0.90. The channel that carries the alarm differs across countries, which is why an aggregation based on detection rather than on past performance is needed.
+          Financial crises cause economic, social and political havoc. Macroprudential policies are gaining traction but are still severely under-researched compared to monetary and fiscal policy. This paper designs an aggregation procedure for probabilistic forecasts that issues a warning up to twelve quarters before a financial crisis, identifies in real time which channel of vulnerability drives the warning, and comes with a formal performance guarantee of the type established in the online learning literature. Applied in real time to France, Germany, Sweden and the United Kingdom from 2001 to 2025, with models estimated on the crises of the early 1990s only, the procedure raises an alarm before each of the four crises of 2007–2008, with leads of one to five years, and separates pre-crisis from calm quarters with an out-of-sample AUROC between 0.83 and 0.96.
         </p>
       </details>
     </li>
@@ -420,11 +420,9 @@ details p {
     </li>
 
     <li class="publication">
-      <a href="files/health_fouliard.pdf">
-        <strong>Quality-Adjusted Output and Productivity of the Non-Market Health Sector in France</strong>
-      </a><br>
+      <span style="font-style:italic;font-weight:500;">Quality-Adjusted Output and Productivity of the Non-Market Health Sector in France</span><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Working paper in preparation · <a href="files/health_fouliard.pdf">Slides</a>, OECD Working Party on National Accounts, 2026
+        Draft coming soon · Presented at the OECD Working Party on National Accounts, 2026
       </small>
       <details><summary>Abstract</summary>
         <p>
@@ -434,12 +432,10 @@ details p {
     </li>
 
     <li class="publication">
-      <a href="files/profit_shifting_fouliard.pdf">
-        <strong>Profit Shifting and the Measurement of Value Added: Evidence from a Distribution of French National Accounts by Type of Firm</strong>
-      </a>
+      <span style="font-style:italic;font-weight:500;">Profit Shifting and the Measurement of Value Added: Evidence from a Distribution of French National Accounts by Type of Firm</span>
       <span class="coauthor"> — with U. Di Nallo (INSEE)</span><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Working paper in preparation · <a href="files/profit_shifting_fouliard.pdf">Slides</a> · Presented at the INSEE National Accounts Seminar and the OECD EG-MG Conference, 2026
+        Draft coming soon · Presented at the INSEE National Accounts Seminar and the OECD EG-MG Conference, 2026
       </small>
       <details><summary>Abstract</summary>
         <p>
