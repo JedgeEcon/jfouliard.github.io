@@ -372,7 +372,7 @@ details p {
       </a><br>
       <details open><summary>Abstract</summary>
         <p>
-          I study the real-time predictability of stock returns over 180 years with a new security-level dataset for the Paris Bourse (DFIH, 1845–1976, matched with EUROFIDAI, 1977–2025). Forecasts combine models as they become available through Bernstein Online Aggregation, a rule with a bounded regret that assumes nothing about the return-generating process. The market index is barely predictable: macro-financial predictors explain 0.5% of its half-monthly variance, mostly in crises, and the larger predictability of lagged index returns is a stale-price artefact. Individual stocks are more predictable, by about 0.6%, mostly because they react to market-wide news with a delay that is strongest in small stocks, not explained by stale prices, and unchanged over 155 years. Momentum earns 7% a year net of costs in almost every decade since 1900, while the historical volatility and beta premia vanish after 1977. Markets became better at pricing risk, not faster at absorbing information.
+          Whether stock returns can be predicted has fascinated academics, practitioners and policymakers for more than a century. I revisit this old question with a new security-level dataset of stock returns on the Paris Bourse. To answer it, I adopt the framework of sequential prediction, in which forecasts combine models as they become available through Bernstein Online Aggregation, an aggregation rule with a bounded regret that assumes nothing about the return-generating process. The results depend on the level of prediction. The market index is barely predictable: macro-financial predictors explain 0.5% of its half-monthly variance, mostly in crises, and the larger predictability of lagged index returns is a stale-price artefact. Individual stocks are more predictable, by about 0.6%, mostly because they react to market-wide news with a delay that is strongest in small stocks, not explained by stale prices, and unchanged over 155 years. Momentum earns 7% a year net of costs in almost every decade since 1900, while the historical volatility and beta premia vanish after 1977. Markets became better at pricing risk, but not faster at absorbing information.
         </p>
       </details>
     </li>
@@ -384,7 +384,7 @@ details p {
   <ul class="sub-publications">
 
     <li class="publication">
-      <a href="files/queenpaper.pdf">
+      <a href="files/QUEEN.pdf">
         <strong>Answering the Queen: Machine Learning and Financial Crises</strong>
       </a>
       <span class="coauthor"> — with Michael Howell (CrossBorder Capital), Hélène Rey (BIS) and Vania Stavrakeva (LBS)</span><br>
@@ -402,8 +402,7 @@ details p {
     </li>
 
     <li class="publication">
-      <!-- Replace href="#" with files/<pdf name> once the PDF is online -->
-      <a href="#">
+      <a href="files/volume_fouliard.pdf">
         <strong>Volume Output Measurement of Public Services: The Case of Education</strong>
       </a>
       <span class="coauthor"> — with M. Le Floch (INSEE) and P. Mendras (INSEE)</span><br>
@@ -421,11 +420,11 @@ details p {
     </li>
 
     <li class="publication">
-      <a href="#">
+      <a href="files/health_fouliard.pdf">
         <strong>Quality-Adjusted Output and Productivity of the Non-Market Health Sector in France</strong>
       </a><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Presented at the OECD Working Party on National Accounts, 2026
+        Working paper in preparation · <a href="files/health_fouliard.pdf">Slides</a>, OECD Working Party on National Accounts, 2026
       </small>
       <details><summary>Abstract</summary>
         <p>
@@ -435,12 +434,12 @@ details p {
     </li>
 
     <li class="publication">
-      <a href="#">
+      <a href="files/profit_shifting_fouliard.pdf">
         <strong>Profit Shifting and the Measurement of Value Added: Evidence from a Distribution of French National Accounts by Type of Firm</strong>
       </a>
       <span class="coauthor"> — with U. Di Nallo (INSEE)</span><br>
       <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
-        Presented at the INSEE National Accounts Seminar and the OECD EG-MG Conference, 2026
+        Working paper in preparation · <a href="files/profit_shifting_fouliard.pdf">Slides</a> · Presented at the INSEE National Accounts Seminar and the OECD EG-MG Conference, 2026
       </small>
       <details><summary>Abstract</summary>
         <p>
@@ -450,7 +449,7 @@ details p {
     </li>
 
     <li class="publication">
-      <a href="#">
+      <a href="files/thistimeisdifferent.pdf">
         <strong>Is This Time Different? Financial Follies across Centuries</strong>
       </a>
       <span class="coauthor"> — with Hélène Rey (BIS) and Vania Stavrakeva (LBS)</span><br>
@@ -468,9 +467,10 @@ details p {
   <ul class="sub-publications">
 
     <li class="publication">
-      <a href="#">
-        <strong>AI and the Transatlantic Productivity Gap: Who Captures the Gains from US Innovation?</strong>
-      </a>
+      <span style="font-style:italic;font-weight:500;">AI and the Transatlantic Productivity Gap: Who Captures the Gains from US Innovation?</span><br>
+      <small style="font-family:'Outfit',sans-serif;font-size:0.78em;color:#888;letter-spacing:0.02em;">
+        Draft coming soon
+      </small>
       <details><summary>Abstract</summary>
         <p>
           Frontier AI is produced mainly in the United States and China, while Europe, which produces little of it, will be a large user. Focusing on the transatlantic link, I study what this asymmetry implies for the productivity gap between Europe and the United States. I build a two-country model in the spirit of Baqaee and Farhi, in which production is a network of an AI sector, AI-using traded sectors and a sheltered sector, calibrated on international input-output tables. Innovation is concentrated in the United States and financed by the rents of AI producers, European adoption is endogenous and disciplined by occupational exposure to AI, compute is an accumulated capital stock, and the exchange rate is determined in equilibrium. The model separates the productivity gains that Europe obtains from AI from the value added it captures, the difference being the rent paid to US producers and the change in the terms of trade. It also shows how hedonic deflation and the capitalisation of AI spending shape measured European productivity, and when the constant-price and current-PPP readings of the transatlantic gap can each be right.
@@ -483,8 +483,8 @@ details p {
   <!-- ===== Teaching ===== -->
   <h2 class="section-title">Teaching</h2>
   <ul class="sub-publications">
-    <li class="publication" style="margin-bottom:0.6em;"><strong>Programming for Economists</strong> <span class="coauthor">— Paris School of Economics, graduate course (Python, Git workflows), 2026</span></li>
-    <li class="publication" style="margin-bottom:0.6em;"><strong>Economic Measurement</strong> <span class="coauthor">— Sciences Po, graduate course, co-taught with E. Richard (DREES), 2026</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Programming for Economists</strong> <span class="coauthor">— Paris School of Economics, graduate course (Python, Git workflows), 2027</span></li>
+    <li class="publication" style="margin-bottom:0.6em;"><strong>Economic Measurement</strong> <span class="coauthor">— Sciences Po, graduate course, co-taught with E. Richard (DREES), 2027</span></li>
     <li class="publication" style="margin-bottom:0.6em;"><strong>Teaching Assistant, Microeconomics and Statistics</strong> <span class="coauthor">— Sciences Po, second-year undergraduate students, 2022–2024</span></li>
   </ul>
 
